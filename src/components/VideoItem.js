@@ -2,9 +2,12 @@ import React from 'react';
 
 import './VideoItem.css';
 
-const VideoItem = ({ video }) => {
+const VideoItem = ({ video, onVideoSelect }) => {
   return (
-    <div className="item videoItem">
+    <div
+      onClick={() => onVideoSelect(video)}
+      className="item videoItem"
+    >
       <img
         src={video.snippet.thumbnails.medium.url}
         alt={video.snippet.title}
@@ -12,7 +15,7 @@ const VideoItem = ({ video }) => {
       />
       <div className="content">
         <div className="header">{video.snippet.title}</div>
-        <div className="description">Some description</div>
+        {/* <div className="description">{video.snippet.description}</div> */}
       </div>
     </div>
   );
