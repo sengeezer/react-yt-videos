@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and based on content in Stephen Grider's excellent [React and Redux course](https://www.udemy.com/share/101WcYA0QecllQRno=/) on [Udemy](https://udemy.com).
 
 ## Setup
 
